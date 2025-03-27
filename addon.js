@@ -25,6 +25,7 @@ const generateMetaPreview = function (value, key) {
 		type: value.type,
 		name: value.name,
 		poster: METAHUB_URL + "/poster/medium/" + imdbId + "/img",
+		logo: METAHUB_URL + "/poster/medium/" + imdbId + "/img",
 	};
 };
 
